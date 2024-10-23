@@ -12,7 +12,7 @@ public class CreateTaskTest extends BaseTestTodoist {
         String taskName = "Task " + new Date().getTime();
 
         mainPageTodoist.loginButton.click();
-        loginPageTodoist.login("examen2@gmail.com", "123456");
+        loginPageTodoist.login("wcaceres683@gmail.com", "123456Wen");
 
         menuSectionTodoist.addTaskButton.click();
         addTaskSection.addTask(taskName);

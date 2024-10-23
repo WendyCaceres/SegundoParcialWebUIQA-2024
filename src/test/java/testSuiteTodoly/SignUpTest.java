@@ -15,8 +15,8 @@ public class SignUpTest extends BaseTestTodoLy {
     @Test
     public void createAndDeleteUser() throws InterruptedException {
         String fullName = "TestUser " + new Date().getTime();
-        String email = "wcaceres683" + new Date().getTime() + "@mail.com";
-        String password = "123456Wen";
+        String email = "examen2" + new Date().getTime() + "@mail.com";
+        String password = "123456";
 
         mainPage.signUpButton.click();
 
